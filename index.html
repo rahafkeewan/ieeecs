@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>project2</title>
+    </head>
+    <body>
+        <header>
+            <a href="#">Pixels</a>
+            <a href="#">FreePik</a>
+        </header>
+        <div class="container">
+            <h1 class ="form-header">Plant.Web</h1>
+            <img src="logo.jpg"  >
+            <form action="#" method="post">
+                <h4 for="username">Enter Your Name:</h4> 
+                <input type="text" id="username">
+                <h4 for="Email">Enter Name of Your Favorite Flower: </h4>
+                <input type="text" id="Email">
+                <h4 for="Yourself">Tell Us A Little About Yourself: </h4>
+                <textarea  id="Yourself" cols="30" rows="3"></textarea>
+                <h3>What Kind Of Flower Do You Prefer ?</h3>
+                <div class="check">
+                    <input type = "checkbox" id="Lotus" name = "KindOfFlower" value="Lotus"> <span>Lotus</span>
+                    <input type = "checkbox" id="Tulip" name = "KindOfFlower" value="Tulip"> <span >Tulip</span>
+                    <input type = "checkbox" id="Gladioli" name = "KindOfFlower" value="Gladioli"> <span>Gladioli</span>
+                    <input type = "checkbox" id="Carnation" name = "KindOfFlower" value="Carnation"> <span>Carnation</span>
+                </div>
+                <input type="submit" value=" submit" class="submit">
+                <h4>Suggest Another Name To Our Website</h4>
+                <input type="text" class="header-text">
+                <input type="button" onclick="SetHeaderAnotherName()" value="try"> 
+            </form>
+            
+            <p>Send A Massage To Us:</p>
+            <a href="#">Flower Web</a>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
